@@ -1,0 +1,281 @@
+#nav{
+	background-color: $dark-grey;
+	@include font-size(16);
+	font-weight: bold;
+	@include centered-menu;
+	@include wp-current-page-links{
+        color: $orange; 
+        background:url('../images/nav-selected-rpt.jpg') center top repeat-x;
+		&:before, &:after{
+			content:"";
+			background-image: url('../images/nav-selected-left.jpg');
+			background-position: left top;
+			background-repeat: no-repeat;
+			width:2px;
+			@include abs-pos(0,auto,0,0);
+		}
+		&:after{
+			@include abs-pos(0,0,0,auto);
+			background-image: url('../images/nav-selected-right.jpg');
+		}
+    }
+	ul{
+		@include inline-menu;
+		margin:0;
+		a{
+			&:link,&:visited{
+				color: white;
+				@include text-shadow(1px 1px 2px #000);
+				padding:0 25px;
+				height:70px;
+				line-height: 70px;
+				text-align: center;
+				@include transition (color .1s linear 0s);
+			}	
+			&:hover,&:active{
+				color: $orange;
+			}
+		}
+	}
+}
+nav#solutions{
+	aside &{
+		@include clearfix;
+		overflow:visible;
+	}
+	ul{
+		@extend %reset-spacing;
+		li{
+			@include span-columns(3);
+			 @include omega(4n);
+			 position: relative;
+			 aside &{
+			 	width:100%;
+			 	margin-bottom: 8px;
+			 	overflow:visible;
+			 	@extend %clearfix;
+			 }
+			.wrap{
+				padding:20px 40px;
+				aside &{
+					padding:0;
+				}
+			}
+			&.shift{
+				@include shift(1.5);
+				aside &{
+					margin-left: 0;
+				}
+			}
+			a{
+				text-align: center;
+				.circle{
+    				position: relative;
+    				@include transition (all .2s ease-in-out);
+    				width: 100%;
+    				overflow: hidden;
+    				background: #4679BD;
+    				@include border-radius(50%);
+    				aside &{
+    					width:18%;
+    					@include abs-pos(0,auto,auto,0);
+    				}
+    				&:before{
+    					content: "";
+    					display: block;
+    					padding-top: 100%;
+					}
+					.icon{
+    					position:  absolute;
+    					top: 0;
+    					left: 0;
+    					bottom: 0;
+    					right: 0;
+    					color: white;
+    					img{
+    						width:60%;
+    						height:auto;
+    						@include abs-pos(50%,auto,auto,50%);
+    						margin:-30% 0 0 -30%;
+    					}
+					}
+    			}
+    			.label{
+					@include font-size(22);
+					font-family: $raleway;
+					font-weight: 400;
+					margin:22px 0 0;
+					color: $light-blue;
+					aside &{
+						width:100%;
+						text-align: left;
+						@include font-size(18);
+						margin:0;
+						&:before{
+    						content: "";
+    						display: block;
+    						padding-top: 18%;
+						}
+						div.content{
+							padding-left:22%;
+							@include abs-pos(0,0,0,0);
+							div{
+								display: table;
+   								width: 100%;
+   								height: 100%;
+								span{
+									display: table-cell;
+									vertical-align: middle;
+								}
+							}
+						}
+					}
+				}
+    			&:hover,&:active{
+    				.circle{
+    					background-color: $orange;
+    					@include transform(scale(1.05));
+    				}
+    				.label{
+    					color: $orange;
+    				}
+    			}
+			}
+		}
+	}
+}
+nav#partners{
+	li{
+		margin-bottom: 30px;
+		img{
+			width: 80%;
+			height: auto;
+		}
+	}
+}
+aside{
+	nav{
+		margin-bottom: 30px;
+		header{
+			font-family: $raleway;
+			font-weight: 400;
+			@include font-size(18);
+			color: $blue;
+			a:link,a:visited{
+				display: block;
+				width:100%;
+				height:100%;
+				padding: 8px;
+				background-color: $light-blue;
+				color: white;
+				margin-bottom: 15px;
+			}
+			a:hover, a:active{
+				background-color: $blue;
+			}
+
+		}
+	}
+}
+nav#sub-nav{
+	header{
+		margin-bottom: 8px;
+	}
+	@include wp-current-page-links{
+		background-color: $orange;
+		color: white;
+	}
+	@include font-size(14);
+	font-family: $raleway;
+	font-weight: 400;
+	li{
+		margin-bottom: 2px;
+	}
+	a{
+		padding:8px;
+		display: block;
+		&:link,&:visited{
+			color: $dark-grey;
+			background-color: #dddddd;
+		}
+		&:hover,&:active{
+			background-color: $orange;
+			color: white;
+		}
+	}
+}
+
+/*
+
+#nav{
+	  @media screen and (min-width: $break-small+1){
+		@include centered-menu;
+			overflow: hidden;
+	  }
+
+	@include wp-current-page-links{
+        color: #fff;
+		background-color: $green;
+    }
+    @media screen and (max-width: $break-small){
+    	@include wp-current-page-links{
+        color: #000;
+		background-color: white;
+    }
+    }
+    @media screen and (max-width: $break-small){
+			margin-bottom: 20px;
+		}
+	@include font-size(14);
+	ul{
+		@media screen and (max-width: $break-small){
+			display: none;
+		}
+	}
+	li{
+		margin: 0 15px;
+		@media screen and (max-width: $break-small){
+			margin: 0 0 4px;
+			width: 100%;
+		}
+		
+	}
+	a{
+			height: 30px;
+			line-height: 30px;
+			padding: 0 10px;
+			display: inline-block;
+			text-align: center;
+			font-family: $bitter;
+			@include transition (background-color .1s linear 0s);
+			@include border-radius(5px);
+				&:link, &:visited{
+					text-decoration: none;
+				}
+				&:hover, &:active{
+					background-color: #fff;
+				}
+				&#mobile-menu{
+					background-color: $green;
+					color: white;
+					margin-bottom: 5px;
+					display: none;
+					@media screen and (max-width: $break-small){
+						display: inline-block;
+					}
+				}
+				@media screen and (max-width: $break-small){
+					width: 100%;
+					padding: 0;
+					background-color: #f0efe8;
+				}
+		}
+}
+#sub-nav{
+	@include rgba-bg($r:140,$g:200,$b:192,$hex:$green,$opacity:0.2);
+	padding: 30px 4% 15px;
+	li{
+		margin-bottom: 3px;
+	}
+}
+*/

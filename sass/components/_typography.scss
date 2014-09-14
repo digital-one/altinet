@@ -1,0 +1,73 @@
+h1,h2,h3,h4,h5{
+	@include font-size(42);
+	line-height: 100%;
+	margin: 0 0 15px;
+	font-family: $raleway;
+	font-weight:500;
+	color: $light-blue;
+}
+h4{
+	@include font-size(18);
+	margin-bottom:10px;
+}
+h5{
+	font-family: $arial;
+	@include font-size(16);
+	font-weight: bold;
+	color: $dark-grey;
+	margin-bottom: 10px;
+}
+p,ul,ol {
+	margin: 0 0 30px;
+}
+a{
+	&:link,&:visited{
+		@include transition (all .2s ease-in-out);
+		color: $light-blue;
+	}
+	&:hover, &:active{
+		color: $mid-grey;
+	}
+}
+small{
+	@include font-size(11);
+	line-height: 100%;
+}
+.big{
+	p{
+		@include font-size(22);
+		font-family: $raleway;
+		font-weight:400;
+		color: $blue;
+		line-height: 130%;
+	}
+}
+p{
+	&.inverted{
+ 		span{
+ 			background-color: $light-blue;
+ 			color: white;
+ 			@include font-size(18);
+ 			font-family: $raleway;
+			font-weight:400;
+			display: inline-block;
+			margin-bottom: 4px;
+			line-height: 24px;
+			padding:0 3px;
+ 		}
+ 		margin-bottom: 20px;
+ 	}
+}
+#main li{
+	margin-bottom:15px;
+	position:relative;
+	padding: 0 0 0 20px;
+	&:before{
+		content:"";
+		width:14px;
+		height:14px;
+		background: url('../images/bullet.jpg') left top no-repeat;
+		display: block;
+		@include abs-pos(3px,auto,auto,0);
+	}
+}

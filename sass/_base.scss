@@ -1,0 +1,22 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: $arial;
+	@include font-size(15);
+	line-height: 130%;
+	background-color: $black;
+	color: $mid-grey;
+}
+a{
+	&:link, &:visited{
+	text-decoration: none;
+	}
+}
+ul{
+	@extend %no-list;
+}
+%centered{
+	margin:0 auto;
+	position: relative;
+}

@@ -1,0 +1,28 @@
+.container{
+	@include outer-container;
+	position: relative;
+}
+.row{
+	@include row(block);
+}
+#content{
+	padding-top:40px;
+	padding-bottom:40px;
+	background: white;
+	.inner &{
+		background: white url('../images/content-bg.jpg') center top repeat-y;
+		padding-top:0;
+		padding-bottom:0;
+	}
+}
+#main,#aside{
+	padding:50px 0;
+}
+#aside{
+	@include span-columns(3);
+}
+#main{
+	@include span-columns(9);
+	background-color:white;
+	padding-left:40px;
+}
