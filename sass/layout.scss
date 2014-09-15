@@ -1,7 +1,7 @@
 /*!
 ==================================================================
 
-PITTER PATTER PARCELS
+ALTINET
 Author: Digital One
 
 ==================================================================
@@ -15,6 +15,9 @@ Author: Digital One
 @import "variables";
 @import "neat/neat";
 
+// Components Styling
+@import "modules/all";
+
 // Helpers
 @import "helpers/all";
 
@@ -24,8 +27,7 @@ Author: Digital One
 // Components Styling
 @import "components/all";
 
-// Components Styling
-@import "modules/all";
+
 
 // Template Styling
 @import "templates/all";

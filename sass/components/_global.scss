@@ -2,7 +2,7 @@
 	display: inline-block;
 	height:32px;
 	line-height:32px;
-	color: white;
+	color: white !important;
 	background-color: $orange;
 	padding:0 8px;
 	font-family: $raleway;
@@ -12,9 +12,19 @@
 	@include transition (background-color .1s linear 0s);
 	border: none;
 	text-transform:uppercase;
+	&.download{
+		//background-color:$light-grey !important;
+		padding:0 8px 0 35px;
+		margin-bottom: 10px;
+		background: $light-blue url('../images/download-white.png') 8px center no-repeat;
+		@include font-size(16);
+		&:hover,&:active{
+			background-color: $blue;
+		}
+	}
 }
 a:hover,a:active{
 	.button{
-		background-color: $light-blue;
+		background-color: $light-blue !important;
 	}
 }
