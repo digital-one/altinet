@@ -93,7 +93,7 @@ textarea{
 		a{
 			font-family: $helvetica;
 			@include font-size(12);
-			padding: 0 5px;
+			padding: 4px 10px;
 		}
 		&.selectBox-options-top{
     		border-bottom:none;
@@ -127,11 +127,13 @@ textarea{
 //gravity forms
 
 .gform_wrapper{
+	margin:0 0 40px;
 	.gform_body{
 		@extend %clearfix;
 	}
 	.gform_footer{
 		text-align: center;
+		margin:20px 0 0;
 	}
 	li{
 		padding: 0 !important;

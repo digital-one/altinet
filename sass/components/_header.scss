@@ -5,13 +5,26 @@
 		height:60px;
 		margin:0;
 		@include abs-pos(50%,auto,auto,0);
+		@media screen and (max-width: $break-xlarge) {
+			@include abs-pos(50%,auto,auto,10px);
+		}
 		margin-top: -30px;
+		
 		img{
 			@include fit-grid(width); 
 		}
 	}
-	div.alpha, aside{
+	div.alpha{
 		@include span-columns(6);
+		@media screen and (max-width: $break-large) {
+			@include span-columns(5);
+		}
+	}
+	aside{
+		@include span-columns(6);
+		@media screen and (max-width: $break-large) {
+			@include span-columns(7);
+		}
 	}
 	.logo-wrap{
 		@include vcenter;
@@ -106,8 +119,19 @@
 		margin-bottom: 1.495%;
 		color: white;
 		@include font-size(18);
+		@media screen and (max-width: $break-large) {
+			@include font-size(16);
+		}
 		font-family: $raleway;
 		font-weight: 400;
+		em{
+			font-style: normal;
+			padding:0 10px;
+			@media screen and (max-width: $break-large) {
+				display: block;
+				padding:0;
+			}
+		}
 		&:before{
 			content: "";
     		display: block;

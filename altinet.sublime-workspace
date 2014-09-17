@@ -4,27 +4,55 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
 				"ba",
-				"background-repeat"
+				"background"
 			],
 			[
-				"bor",
-				"border-bottom"
+				"pa",
+				"padding"
 			],
 			[
-				"fo",
-				"font-family"
+				"mar",
+				"margin-left"
+			],
+			[
+				"aside",
+				"asideHeight"
 			],
 			[
 				"ma",
 				"margin-bottom"
 			],
 			[
-				"pad",
-				"padding"
+				"fo",
+				"font-weight"
 			],
 			[
-				"pa",
+				"marg",
+				"margin"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"pad",
 				"padding"
 			],
 			[
@@ -36,20 +64,8 @@
 				"button-inner"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"str_rep",
 				"str_replace"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"over",
@@ -363,6 +379,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "sass/components/_forms.scss",
+			"settings":
+			{
+				"buffer_size": 3012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webinar-register.html",
+			"settings":
+			{
+				"buffer_size": 14790,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/templates/_webinars.scss",
+			"settings":
+			{
+				"buffer_size": 992,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partner-detail.html",
+			"settings":
+			{
+				"buffer_size": 12380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/components/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 5264,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/templates/_all.scss",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -392,6 +456,53 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/altinet/sass/_base.scss",
+		"/Applications/MAMP/htdocs/altinet/partner-detail.html",
+		"/Applications/MAMP/htdocs/altinet/about.html",
+		"/Applications/MAMP/htdocs/altinet/contact.html",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_contact.scss",
+		"/Applications/MAMP/htdocs/altinet/index.html",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_home.scss",
+		"/Applications/MAMP/htdocs/altinet/case-studies.html",
+		"/Applications/MAMP/htdocs/altinet/sass/_variables.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_container.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_typography.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_partners.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_global.scss",
+		"/Applications/MAMP/htdocs/altinet/case-study-detail.html",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_case-study.scss",
+		"/Applications/MAMP/htdocs/altinet/webinar-register.html",
+		"/Applications/MAMP/htdocs/altinet/videos.html",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_header.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/modules/_owl-carousel.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/modules/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_navigation.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_forms.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/layout.scss",
+		"/Applications/MAMP/htdocs/altinet/js/scripts.js",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_solutions.scss",
+		"/Applications/MAMP/htdocs/altinet/partners.html",
+		"/Applications/MAMP/htdocs/altinet/solutions.html",
+		"/Applications/MAMP/htdocs/altinet/solutions-detail.html",
+		"/Applications/MAMP/htdocs/altinet/valuation.html",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_rgba-bg.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_footer.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/_reset.scss",
+		"/Applications/MAMP/htdocs/altinet/inner.html",
+		"/Applications/MAMP/htdocs/altinet/storage.html",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_responsive-video.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_vcenter.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_responsive-square.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/_helpers.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_wp-current-page-links.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/_placeholders.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_text-shadow.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_inline-menu.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_group.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/helpers/classes/_clearfix.scss",
 		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/sections/games.xsl",
 		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/js/common.js",
 		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/templates/_media_queries.scss",
@@ -472,54 +583,7 @@
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_abs-pos.scss",
 		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/helpers/classes/_clearfix.scss",
 		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/modules/_all.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/components/_header.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/competitions_view.xsl",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/games_view.xsl",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/templates/_products.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/js/slider.js",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/competitions.xsl",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/templates/_promos.scss",
-		"/Applications/MAMP/htdocs/gratterpalm/send.php",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/278329/index.html",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/templates/_games.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/utilities/promos.xsl",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/287239/index.html",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/Capfile",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/templates/_profile-page.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/278329/js/lib/game/views/main.coffee",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/ie8_game/js/ie8_game.js",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/msft-reps.xsl",
-		"/Applications/MAMP/htdocs/corporate_resolve/wp-content/themes/corporateresolve/sass/all.scss",
-		"/Applications/MAMP/htdocs/corporate_resolve/wp-content/themes/corporateresolve/sass/_layout.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/ie8_game/sass/ie8-game.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/components/_all.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/components/_forms.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/components/_typography.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/components/_search.scss",
-		"/Users/neilmills/Downloads/ie8-game.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/html5game.html",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/126823/common.js",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/ie8_game/index.html",
-		"/Applications/MAMP/htdocs/pitter_patter_parcels/sass/layout.scss",
-		"/Applications/MAMP/htdocs/pitter_patter_parcels/sass/_variables.scss",
-		"/Applications/MAMP/htdocs/pitter_patter_parcels/index.php",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/games_view_questions.xsl",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/picks_view.xsl",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/_products.xsl",
-		"/Applications/MAMP/htdocs/Backups/titan ip/titanip.sql",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/utilities/master.xsl",
-		"/Applications/MAMP/htdocs/pitter_patter_parcels/js/placeholders.js",
-		"/Applications/MAMP/htdocs/pitter_patter_parcels/sass/_typography.scss",
-		"/Applications/MAMP/htdocs/pitter_patter_parcels/css/layout.css",
-		"/Users/neilmills/Library/Caches/Cleanup At Startup/Transmit/C92A8F85-9BB6-4788-A9C3-2607B4959241/header.php",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/home.xsl",
-		"/Applications/MAMP/htdocs/pitter_patter_parcels/sass/_normalize.scss",
-		"/Applications/MAMP/htdocs/pitter_patter_parcels/sass/_settings.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/pages/ms-ft-reps.xsl",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/games/278329/bower_components/jasmine/spec/support/dev_boot.js",
-		"/Applications/MAMP/htdocs/corporate_resolve/sass/_media_queries.scss",
-		"/Applications/MAMP/htdocs/corporate_resolve/sass/_grid_12col.scss",
-		"/Applications/MAMP/htdocs/corporate_resolve/sass/_layout.scss"
+		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/components/_header.scss"
 	],
 	"find":
 	{
@@ -538,6 +602,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"partner\"",
+			"wp-current",
 			".page-contribute ",
 			"height: auto !important",
 			".grid-item.two-by-two",
@@ -663,9 +729,7 @@
 			"input[type",
 			"input.text",
 			"form_container",
-			"input",
-			"font: 12px",
-			"12px"
+			"input"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -813,6 +877,167 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "sass/components/_forms.scss",
+					"settings":
+					{
+						"buffer_size": 3012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2491,
+								2491
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1466.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "webinar-register.html",
+					"settings":
+					{
+						"buffer_size": 14790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12752,
+								12752
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1839.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/templates/_webinars.scss",
+					"settings":
+					{
+						"buffer_size": 992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								962,
+								962
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "partner-detail.html",
+					"settings":
+					{
+						"buffer_size": 12380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7053,
+								7184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1434.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/components/_navigation.scss",
+					"settings":
+					{
+						"buffer_size": 5264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1004,
+								1029
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 593.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/templates/_all.scss",
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								115,
+								115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
