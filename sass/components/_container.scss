@@ -10,6 +10,10 @@
 	 	@media screen and (max-width: $break-large) {
 	 		padding-left: 0px !important;
 	 	}
+	 	@media screen and (max-width: $break-medium) {
+	 		padding-left: 0px !important;
+	 		padding-right: 0px !important;
+	 	}
 	 }
 }
 .row{
@@ -29,6 +33,7 @@
 	padding:35px 0;
 }
 #aside{
+	float:left !important;
 	@include span-columns(3);
 	background-color: $light-grey;
 	padding-right:20px;
@@ -36,6 +41,10 @@
 		padding-right:10px;
 		padding-left:10px;
 		@include span-columns(4);
+	}
+	@media screen and (max-width: $break-medium) {
+		@include span-columns(12);
+		@include omega;
 	}
 	.inner &:before{
 		background-color: $light-grey;
@@ -49,11 +58,19 @@
 	}
 }
 #main{
+	float:right !important;
 	@include span-columns(9);
 	background-color:white;
+	@include omega;
 	padding-left:10px;
 	@media screen and (max-width: $break-large) {
 		@include span-columns(8);
+		@include omega;
 		padding-left:0;
+	}
+	@media screen and (max-width: $break-medium) {
+		@include span-columns(12);
+		@include omega;
+		padding: 20px 10px;
 	}
 }

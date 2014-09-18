@@ -13,7 +13,8 @@
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,500' rel='stylesheet' type='text/css' />
         <link rel="stylesheet" href="css/layout.css" />
-               <script src="js/modernizr.js"></script>
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+        <script src="js/modernizr.js"></script>
        <!--[if (gte IE 6)&(lte IE 8)]>
 <script src="js/selectivizr-min.js"></script>
 <![endif]-->
@@ -26,24 +27,45 @@
 <header id="header">
 <div class="container">
     <div class="alpha"><div class="logo-wrap"><h1 id="home-link"><img src="images/altinet.jpg" alt="Altinet" /></h1></div></div>
-    <aside><div class="row contacts"><div class="inner"><div><span>Get in touch at T. <a href="tel:01132512008">0113 2512008</a> E. <a href="mailto:sales@altinet.co.uk">sales@altinet.co.uk</a></span></div></div></div>
+    <aside><div class="row contacts"><div class="inner"><div><span><em>Get in touch at T. <a href="tel:01132512008">0113 2512008</a></em><em>E. <a href="mailto:sales@altinet.co.uk">sales@altinet.co.uk</a></em></span></div></div></div>
     <div class="row clearfix"><nav class="social"><ul><li><a href=""><span class="inner"></span></a></li><li><a href=""><span class="inner twitter"></span></a></li><li><a href=""><span class="inner facebook"></span></a></li></ul></nav>
     <form id="search" method="post" action="" class="clearfix"><input type="text" name="s" id="s" /><button type="submit">Search</button></form></div></aside>
 </div>
 </header>
 <!--/header-->
 <!--nav-->
-<nav id="nav"><div class="container clearfix"><ul><li class="current-menu-item"><a href="">Home</a></li><li><a href="">About</a></li><li><a href="">Solutions</a></li><li><a href="">Partners</a></li><li><a href="">Videos</a></li><li><a href="">Case Studies</a></li><li><a href="">Valuation</a></li><li><a href="">Webinars</a></li><li><a href="">Contact</a></li></ul></div></nav>
+<nav id="nav"><div class="container"><a id="mobile">Menu</a><ul><li class="current-menu-item"><a href="">Home</a></li><li><a href="">About</a></li><li><a href="">Solutions</a></li><li><a href="">Partners</a></li><li><a href="">Videos</a></li><li><a href="">Case Studies</a></li><li><a href="">Valuation</a></li><li><a href="">Webinars</a></li><li><a href="">Contact</a></li></ul></div></nav>
 <!--/nav-->
 <!--slider-->
 <section id="slider">
-   
+   <div id="slides">
 <div class="slide" style="background-image:url('images/partners-banner.jpg');"><a href=""><div class="container"><div class="content"><div><h1>CONTACT ALTINET</h1><div class="spacer"></div><h2>HOW TO GET IN TOUCH</h2></div></div></div></a></div>
+</div>
 </section>
 <!--/slider-->
 <!--content-->
 <div id="content">
    <div class="container">
+    <!--main-->
+        <div id="main" role="main">
+        <article class="location"><div class="content"><h5>Altinet Leeds Office</h5><p>Tennents Hall,<Br />Acre Close,<br />
+Leeds, LS10 4HX</p>
+ <p>
+T. <a href="tel:01132512008">0113 2512008</a><br />
+E. <a href="sales@altinet.co.uk" target="_blank">sales@altinet.co.uk</a></p></div>
+<figure id="leeds-map" class="ap">map</figure>
+</article>
+        <article class="location"><div class="content"><h5>Altinet Edinburgh Office</h5><p>83 Princes Street,<br />
+Edinburgh, EH2 2ER</p>
+ <p>
+T. <a href="tel:08001422956">0800 142 2956</a><br />
+E. <a href="sales@altinet.co.uk" target="_blank">sales@altinet.co.uk</a></p></div>
+<figure id="edinburgh-map" class="map">map</figure>
+</article>
+
+</div>
+<!--/main-->
+    <!--aside-->
     <aside id="aside">
 
 <nav id="solutions">
@@ -72,23 +94,9 @@
         <li><a href=""><img src="images/veeam.png" title="veeam" /></a></li>
     </ul>
     </nav>
-        </aside><div id="main" role="main">
-        <article class="location"><div class="content"><h5>Altinet Leeds Office</h5><p>Tennents Hall,<Br />Acre Close,<br />
-Leeds, LS10 4HX</p>
- <p>
-T. <a href="tel:01132512008">0113 2512008</a><br />
-E. <a href="sales@altinet.co.uk" target="_blank">sales@altinet.co.uk</a></p></div>
-<figure id="leeds-map" class="ap">map</figure>
-</article>
-        <article class="location"><div class="content"><h5>Altinet Edinburgh Office</h5><p>83 Princes Street,<br />
-Edinburgh, EH2 2ER</p>
- <p>
-T. <a href="tel:08001422956">0800 142 2956</a><br />
-E. <a href="sales@altinet.co.uk" target="_blank">sales@altinet.co.uk</a></p></div>
-<figure id="edinburgh-map" class="map">map</figure>
-</article>
+        </aside>
+<!--aside-->
 
-</div>
    </div>
 </div>
 <!--/content-->
@@ -114,6 +122,8 @@ T. <a href="tel:01132512008">0113 2512008</a> E. <a href="mailto:sales@altinet.c
 <script>window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.10.1.min.js"><\/script>')</script>
 <script src="//maps.google.com/maps/api/js?sensor=true"></script>
 <script src="js/jquery.gmap.js"></script>
+<script src="js/jquery.cycle.all.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.selectbox.min.js"></script>
 <script src="js/scripts.js"></script>

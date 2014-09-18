@@ -16,14 +16,27 @@
 		@extend %clearfix;
 		margin-bottom: 40px;
 		div.content{
-			@include span-columns(6 of 9);
+			@include span-columns(7 of 9);
+			@media screen and (max-width: $break-large) {
+				@include span-columns(6 of 9);
+			}
+			@media screen and (max-width: $break-medium) {
+				@include span-columns(12);
+			}
 		}
 		figure{
-			@include span-columns(3 of 9);
+			@include span-columns(2 of 9);
+			@media screen and (max-width: $break-large) {
+				@include span-columns(3 of 9);
+			}
+			@media screen and (max-width: $break-medium) {
+				@include span-columns(7);
+			}
 			background-color: $light-grey;
 			overflow:hidden;
 			position:relative;
 			margin-bottom: 16px;
+			margin-top:4px;
 			border:1px solid $light-grey;
 			@include transition (background-color .1s linear 0s);
 			&:before {

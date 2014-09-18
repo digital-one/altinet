@@ -3,6 +3,11 @@
 	@include font-size(16);
 	font-weight: bold;
 	position: relative;
+	@media screen and (max-width: $break-medium) {
+		position: fixed;
+		left:0;
+		top:0;
+	}
 	.container{
 		@media screen and (max-width: $break-large) {
 			padding:0;
@@ -76,6 +81,9 @@
 			right:0;
 			display: none;
 		}
+		@media screen and (max-width: $break-medium) {
+			width:100%;
+		}
 		li{
 			@media screen and (max-width: $break-large) {
 				float:none !important;
@@ -124,10 +132,16 @@ nav#solutions{
 	ul{
 		@extend %reset-spacing;
 		li{
-			@include span-columns(3);
-			 @include omega(4n);
-			 position: relative;
-			 aside &{
+			@media screen and (min-width: $break-medium+1) {
+				@include span-columns(3);
+				 @include omega(4n);
+			}
+			@media screen and (max-width: $break-medium) {
+				@include span-columns(6);
+				@include omega(2n);
+			}
+			position: relative;
+			aside &{
 			 	width:100%;
 			 	margin-bottom: 8px;
 			 	overflow:visible;
@@ -135,6 +149,9 @@ nav#solutions{
 			 }
 			.wrap{
 				padding:20px 40px;
+				@media screen and (max-width: $break-large) {
+					padding: 10px !important;
+				}
 				aside &{
 					padding:0;
 				}
@@ -142,10 +159,18 @@ nav#solutions{
 					padding: 20px 10px;
 				}
 			}
-			&.shift{
+			&.cloud-storage{
 				@include shift(1.5);
+				@media screen and (max-width: $break-medium) {
+					@include shift(0);
+				}
 				aside &{
 					margin-left: 0;
+				}
+			}
+			&.message-archiver{
+				@media screen and (max-width: $break-medium) {
+					@include shift(3);
 				}
 			}
 			a{
@@ -185,6 +210,10 @@ nav#solutions{
 					@include font-size(22);
 					@media screen and (max-width: $break-large) {
 						@include font-size(18);
+					}
+					@media screen and (max-width: $break-medium) {
+						@include font-size(14);
+						margin-top:5px;
 					}
 					font-family: $raleway;
 					font-weight: 400;

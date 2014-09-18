@@ -1,5 +1,9 @@
 #header{
 	background-color: white;
+	@media screen and (max-width: $break-medium) {
+		height: auto;
+		padding-top: 50px;
+	}
 	#home-link{
 		width:248px;
 		height:60px;
@@ -7,6 +11,10 @@
 		@include abs-pos(50%,auto,auto,0);
 		@media screen and (max-width: $break-xlarge) {
 			@include abs-pos(50%,auto,auto,10px);
+		}
+		@media screen and (max-width: $break-medium) {
+			@include abs-pos(50%,auto,auto,50%);
+			margin-left:-124px;
 		}
 		margin-top: -30px;
 		
@@ -16,14 +24,25 @@
 	}
 	div.alpha{
 		@include span-columns(6);
+		
 		@media screen and (max-width: $break-large) {
 			@include span-columns(5);
+		}
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(12);
+			float: none;
+			height: 100px;
+			position: relative;
 		}
 	}
 	aside{
 		@include span-columns(6);
 		@media screen and (max-width: $break-large) {
 			@include span-columns(7);
+		}
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(12);
+			float:none;
 		}
 	}
 	.logo-wrap{
@@ -90,7 +109,7 @@
 		width: 63.551%;
 		display: block;
 		background-color:$light-blue;
-		padding:5px;
+		padding:5px 0 5px 5px;
 		input{
 			border: none;
 			width:70%;
@@ -109,6 +128,9 @@
 			font-family: $raleway;
 			font-weight:400;
 			@include font-size(18);
+			@media screen and (max-width: $break-medium) {
+				@include font-size(14);
+			}
 			cursor: pointer;
 			height:100%;
 
@@ -121,6 +143,12 @@
 		@include font-size(18);
 		@media screen and (max-width: $break-large) {
 			@include font-size(16);
+			line-height: 110%;
+		}
+		@media screen and (max-width: $break-medium) {
+			//@include font-size(14);
+			@include font-size-vw(3.8,14);
+			line-height: 110%;
 		}
 		font-family: $raleway;
 		font-weight: 400;

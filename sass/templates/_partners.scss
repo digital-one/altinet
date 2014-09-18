@@ -1,5 +1,8 @@
 .link-box{
 		@include span-columns(4);
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(12);
+		}
 		#partners &{
 			@include omega(3);
 		}
@@ -36,6 +39,16 @@
 	   					display: table-cell;
 	    				text-align: center;
 	    				vertical-align: middle;
+	    				height:100%;
+	    				width: 100%;
+	    				img{
+	    					width: 70%;
+	    					height:auto;
+	    					&.portrait{
+	    						height:70%;
+	    						width:auto;
+	    					}
+	    				}
 	   				}
 				}
 			}

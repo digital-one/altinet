@@ -139,6 +139,9 @@ textarea{
 		padding: 0 !important;
 		@include span-columns(6);
 		@include omega(2n);
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(12);
+		}
 		&:before{
 			background:none !important;
 		}

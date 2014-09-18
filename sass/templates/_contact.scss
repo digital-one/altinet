@@ -3,9 +3,15 @@
 	margin-bottom:40px;
 	div.content{
 		@include span-columns(3 of 9);
+		@media screen and (max-width: $break-large) {
+			@include span-columns(9 of 9);
+		}
 	}
 	figure{
 		@include span-columns(6 of 9);
+		@media screen and (max-width: $break-large) {
+			@include span-columns(9 of 9);
+		}
 		border: 1px solid $light-grey;
 		height:280px;
 	}
