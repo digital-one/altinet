@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
 				"font",
 				"font-weight"
 			],
@@ -12,24 +44,12 @@
 				"background"
 			],
 			[
-				"pa",
-				"padding"
-			],
-			[
-				"mar",
-				"margin-left"
-			],
-			[
 				"aside",
 				"asideHeight"
 			],
 			[
 				"ma",
 				"margin-bottom"
-			],
-			[
-				"fo",
-				"font-weight"
 			],
 			[
 				"marg",
@@ -44,16 +64,8 @@
 				"font-weight"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"bor",
 				"border-bottom"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"text",
@@ -98,10 +110,6 @@
 			[
 				"list-s",
 				"list-style-type"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"le",
@@ -166,10 +174,6 @@
 			[
 				"z",
 				"z-index"
-			],
-			[
-				"max",
-				"max-width"
 			],
 			[
 				"wid",
@@ -379,54 +383,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sass/components/_forms.scss",
-			"settings":
-			{
-				"buffer_size": 3012,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webinar-register.html",
-			"settings":
-			{
-				"buffer_size": 14790,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/templates/_webinars.scss",
-			"settings":
-			{
-				"buffer_size": 992,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "partner-detail.html",
-			"settings":
-			{
-				"buffer_size": 12380,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/components/_navigation.scss",
-			"settings":
-			{
-				"buffer_size": 5264,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/templates/_all.scss",
-			"settings":
-			{
-				"buffer_size": 117,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -456,42 +412,45 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/altinet/sass/_base.scss",
-		"/Applications/MAMP/htdocs/altinet/partner-detail.html",
 		"/Applications/MAMP/htdocs/altinet/about.html",
-		"/Applications/MAMP/htdocs/altinet/contact.html",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_contact.scss",
-		"/Applications/MAMP/htdocs/altinet/index.html",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_home.scss",
 		"/Applications/MAMP/htdocs/altinet/case-studies.html",
-		"/Applications/MAMP/htdocs/altinet/sass/_variables.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_container.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_typography.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_partners.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_global.scss",
 		"/Applications/MAMP/htdocs/altinet/case-study-detail.html",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_case-study.scss",
-		"/Applications/MAMP/htdocs/altinet/webinar-register.html",
+		"/Applications/MAMP/htdocs/altinet/contact.html",
+		"/Applications/MAMP/htdocs/altinet/index.html",
+		"/Applications/MAMP/htdocs/altinet/inner.html",
+		"/Applications/MAMP/htdocs/altinet/partner-detail.html",
+		"/Applications/MAMP/htdocs/altinet/partners.html",
+		"/Applications/MAMP/htdocs/altinet/solutions-detail.html",
+		"/Applications/MAMP/htdocs/altinet/solutions.html",
+		"/Applications/MAMP/htdocs/altinet/valuation.html",
 		"/Applications/MAMP/htdocs/altinet/videos.html",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_header.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/modules/_owl-carousel.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/modules/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/webinar-register.html",
+		"/Applications/MAMP/htdocs/altinet/webinars.html",
+		"/Applications/MAMP/htdocs/altinet/sass/_variables.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_webinars.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_home.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_footer.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/components/_navigation.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_forms.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/layout.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_slider.scss",
 		"/Applications/MAMP/htdocs/altinet/js/scripts.js",
 		"/Applications/MAMP/htdocs/altinet/sass/templates/_solutions.scss",
-		"/Applications/MAMP/htdocs/altinet/partners.html",
-		"/Applications/MAMP/htdocs/altinet/solutions.html",
-		"/Applications/MAMP/htdocs/altinet/solutions-detail.html",
-		"/Applications/MAMP/htdocs/altinet/valuation.html",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_header.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_typography.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_container.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_global.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_case-study.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_partners.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_forms.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_contact.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/_base.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/modules/_owl-carousel.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/modules/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/layout.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_rgba-bg.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_footer.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_all.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/_reset.scss",
-		"/Applications/MAMP/htdocs/altinet/inner.html",
 		"/Applications/MAMP/htdocs/altinet/storage.html",
 		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_responsive-video.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_vcenter.scss",
@@ -580,10 +539,7 @@
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_inner-shadow.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_drop-shadow.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_clearfix.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_abs-pos.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/helpers/classes/_clearfix.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/modules/_all.scss",
-		"/Applications/MAMP/htdocs/bolser/nokia-the-connection/www/workspace/assets/sass/components/_header.scss"
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_abs-pos.scss"
 	],
 	"find":
 	{
@@ -591,7 +547,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			""
@@ -602,6 +558,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<a href=\"~altinetco/build/",
+			"action=\"/build/",
+			"<a href=\"/build/",
+			"wrap",
+			"clearfix",
+			"aside",
 			"class=\"partner\"",
 			"wp-current",
 			".page-contribute ",
@@ -723,13 +685,7 @@
 			"sticker",
 			"grid",
 			"sign",
-			".submit",
-			"input.submit",
-			".form_container",
-			"input[type",
-			"input.text",
-			"form_container",
-			"input"
+			".submit"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -737,6 +693,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<a href=\"/~altinetco/build/",
+			"action=\"/~altinetco/build/",
+			"<a href=\"~altinetco/build/",
 			"slide_old",
 			"slide_new",
 			"title_hide",
@@ -861,10 +820,7 @@
 			"logo-intro",
 			"logo_intro",
 			"logo_intro_show",
-			"logo_intro",
-			"logo_intro_show",
-			"t_",
-			"duration"
+			"logo_intro"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -877,167 +833,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sass/components/_forms.scss",
-					"settings":
-					{
-						"buffer_size": 3012,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2491,
-								2491
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1466.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "webinar-register.html",
-					"settings":
-					{
-						"buffer_size": 14790,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12752,
-								12752
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1839.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/templates/_webinars.scss",
-					"settings":
-					{
-						"buffer_size": 992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								962,
-								962
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "partner-detail.html",
-					"settings":
-					{
-						"buffer_size": 12380,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7053,
-								7184
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1434.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "sass/components/_navigation.scss",
-					"settings":
-					{
-						"buffer_size": 5264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1004,
-								1029
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 593.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/templates/_all.scss",
-					"settings":
-					{
-						"buffer_size": 117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								115,
-								115
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -19,7 +19,7 @@ h3{
 	}
 }
 h4{
-	@include font-size(18);
+	@include font-size(20);
 	margin-bottom:10px;
 	font-weight: 500;
 }
@@ -39,7 +39,7 @@ a{
 		color: $light-blue;
 	}
 	&:hover, &:active{
-		color: $blue;
+		color: $orange;
 	}
 }
 small{

@@ -1,8 +1,17 @@
 #nav{
 	background-color: $dark-grey;
-	@include font-size(16);
+	@include font-size(15);
 	font-weight: bold;
 	position: relative;
+	height:70px;
+	overflow: visible !important;
+	font-family: $raleway;
+	font-weight: 700;
+	.container{
+		@media screen and (max-width: $break-large) {
+			overflow:visible;
+		}
+	}
 	@media screen and (max-width: $break-medium) {
 		position: fixed;
 		left:0;
@@ -41,6 +50,16 @@
 		}
 		&:hover,&:active,&.active{
 			@include opacity(1);
+		}
+	}
+	li{
+		&.active{
+			a:link,a:visited{
+				color: $orange;
+			}
+			a:hover,a:active{
+				color: $orange;
+			}
 		}
 	}
 	@include wp-current-page-links{
@@ -91,14 +110,56 @@
 				right:auto;
 				width:100%;
 			}
+			position: relative;
+			ul.sub-menu{
+				@include abs-pos(70px,auto,auto,0);
+				left:auto !important;
+				z-index: 9999;
+				width:220px;
+				padding-bottom:5px;
+				display: none;
+				font-weight: 400;
+				background-color: $dark-grey;
+				li{
+					right:auto;
+					width:100%;
+					float: none;
+					display: block;
+					a{
+						&:link, &:visited{
+							height:auto;
+							line-height: 110%;
+							padding:0;
+							background-image:none;
+							@include font-size(14);
+							color: darken(white,30);
+							text-align: left;
+							background-color: $dark-grey;
+							display: block;
+							float:none;
+							width: 100%;
+							padding: 5px 10px 5px 20px;
+							font-weight: normal;
+							&:before,&:after{
+								background-image:none;
+							}
+						}
+						&:hover,&:active{
+							background-color:lighten($dark-grey,5);
+							color:white;
+						}
+					}
+				}
+			}
 		}
 		a{
 			&:link,&:visited{
 				color: white;
 				@include text-shadow(1px 1px 2px #000);
-				padding:0 25px;
+				text-transform: uppercase;
+				padding:0 18px;
 				@media screen and (max-width: $break-xlarge) {
-					padding: 0 20px;
+					padding: 0 14px;
 					display: block;
 					float:none;
 				}
@@ -159,7 +220,7 @@ nav#solutions{
 					padding: 20px 10px;
 				}
 			}
-			&.cloud-storage{
+			&.vpn{
 				@include shift(1.5);
 				@media screen and (max-width: $break-medium) {
 					@include shift(0);
@@ -207,7 +268,7 @@ nav#solutions{
 					}
     			}
     			.label{
-					@include font-size(22);
+					@include font-size(20);
 					@media screen and (max-width: $break-large) {
 						@include font-size(18);
 					}
@@ -294,6 +355,26 @@ nav#sub-nav{
 		}
 	}
 }
+nav#archive, nav#categories, nav#articles{
+	ul{
+		margin-left:8px;
+		li{
+			margin-bottom: 5px;
+			line-height: 110% !important;
+		}
+		a:link{
+			
+		}
+	}
+}
+nav#articles li{
+	margin-bottom: 15px !important;
+	small{
+		color: $dark-grey;
+		display:block;
+		margin-bottom: 2px;
+	}
+}
 aside{
 	nav{
 		margin-bottom: 30px;
@@ -302,7 +383,7 @@ aside{
 			font-weight: 400;
 			@include font-size(18);
 			color: $blue;
-			a:link,a:visited{
+			a:link,a:visited,span{
 				display: block;
 				width:100%;
 				height:100%;
@@ -312,7 +393,7 @@ aside{
 				margin-bottom: 15px;
 			}
 			a:hover, a:active{
-				background-color: $blue !important;
+				background-color: $orange !important;
 			}
 
 		}

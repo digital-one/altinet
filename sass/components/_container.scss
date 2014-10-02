@@ -1,3 +1,8 @@
+#wrapper{
+	width: 100%;
+	overflow:hidden;
+	position: relative;
+}
 .container{
 	@include outer-container;
 	position: relative;
