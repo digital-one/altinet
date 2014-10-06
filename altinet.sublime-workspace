@@ -4,8 +4,40 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline-menu"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"overflow",
+				"overflow-x"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
 				"pad",
-				"padding-top"
+				"padding"
+			],
+			[
+				"dar",
+				"dark-grey"
 			],
 			[
 				"max",
@@ -20,14 +52,6 @@
 				"padding-left"
 			],
 			[
-				"fo",
-				"font-style"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"visi",
 				"visible"
 			],
@@ -36,20 +60,8 @@
 				"background"
 			],
 			[
-				"font",
-				"font-weight"
-			],
-			[
-				"ba",
-				"background"
-			],
-			[
 				"aside",
 				"asideHeight"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"marg",
@@ -142,10 +154,6 @@
 			[
 				"poit",
 				"position"
-			],
-			[
-				"in",
-				"inline"
 			],
 			[
 				"lt",
@@ -412,42 +420,49 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/altinet/about.html",
-		"/Applications/MAMP/htdocs/altinet/case-studies.html",
-		"/Applications/MAMP/htdocs/altinet/case-study-detail.html",
 		"/Applications/MAMP/htdocs/altinet/contact.html",
-		"/Applications/MAMP/htdocs/altinet/index.html",
-		"/Applications/MAMP/htdocs/altinet/inner.html",
-		"/Applications/MAMP/htdocs/altinet/partner-detail.html",
-		"/Applications/MAMP/htdocs/altinet/partners.html",
-		"/Applications/MAMP/htdocs/altinet/solutions-detail.html",
-		"/Applications/MAMP/htdocs/altinet/solutions.html",
-		"/Applications/MAMP/htdocs/altinet/valuation.html",
-		"/Applications/MAMP/htdocs/altinet/videos.html",
+		"/Applications/MAMP/htdocs/altinet/archive.html",
 		"/Applications/MAMP/htdocs/altinet/webinar-register.html",
 		"/Applications/MAMP/htdocs/altinet/webinars.html",
-		"/Applications/MAMP/htdocs/altinet/sass/_variables.scss",
+		"/Applications/MAMP/htdocs/altinet/case-study-detail.html",
+		"/Applications/MAMP/htdocs/altinet/case-studies.html",
+		"/Applications/MAMP/htdocs/altinet/inner.html",
+		"/Applications/MAMP/htdocs/altinet/partners.html",
+		"/Applications/MAMP/htdocs/altinet/css/layout.css",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_partners.scss",
+		"/Applications/MAMP/htdocs/altinet/partners_2.html",
+		"/Applications/MAMP/htdocs/altinet/sass/layout.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/templates/_webinars.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_home.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_footer.scss",
+		"/Applications/MAMP/htdocs/altinet/about.html",
+		"/Applications/MAMP/htdocs/altinet/solutions.html",
+		"/Applications/MAMP/htdocs/altinet/index.html",
+		"/Applications/MAMP/htdocs/altinet/solutions-detail.html",
+		"/Applications/MAMP/htdocs/altinet/partner-detail.html",
+		"/Applications/MAMP/htdocs/altinet/videos.html",
+		"/Applications/MAMP/htdocs/altinet/single-news.html",
+		"/Applications/MAMP/htdocs/altinet/archive-news.html",
+		"/Applications/MAMP/htdocs/altinet/single.html",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_typography.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_global.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/components/_navigation.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_slider.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_footer.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_all.scss",
 		"/Applications/MAMP/htdocs/altinet/js/scripts.js",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_all.scss",
+		"/Applications/MAMP/htdocs/altinet/valuation.html",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_blog.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/_variables.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/_base.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_container.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/templates/_home.scss",
+		"/Applications/MAMP/htdocs/altinet/sass/components/_slider.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/templates/_solutions.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/components/_header.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_typography.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_container.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_global.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/templates/_case-study.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_partners.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/components/_forms.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/templates/_contact.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/_base.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/modules/_owl-carousel.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/modules/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/layout.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_rgba-bg.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_all.scss",
 		"/Applications/MAMP/htdocs/altinet/sass/_reset.scss",
@@ -532,14 +547,7 @@
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_border-radius.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_opacity.scss",
 		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_rounded-corners.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_animation.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_transition.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_scale.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_rotate.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_inner-shadow.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_drop-shadow.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_clearfix.scss",
-		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_abs-pos.scss"
+		"/Applications/MAMP/htdocs/pitter-patter-parcels/sass/helpers/mixins/_animation.scss"
 	],
 	"find":
 	{
@@ -558,6 +566,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"link-box",
+			"header",
+			"18px",
+			"20px",
+			"header",
+			"overflow",
 			"<a href=\"~altinetco/build/",
 			"action=\"/build/",
 			"<a href=\"/build/",
@@ -679,13 +693,7 @@
 			".page-games",
 			".page-games .sticker",
 			".common_sec",
-			".game_promo .sticker",
-			".sticker.lock",
-			"game_promo",
-			"sticker",
-			"grid",
-			"sign",
-			".submit"
+			".game_promo .sticker"
 		],
 		"highlight": false,
 		"in_selection": false,

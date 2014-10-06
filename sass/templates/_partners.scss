@@ -1,10 +1,16 @@
 .link-box{
-		@include span-columns(4);
+		@include span-columns(3 of 9);  
+		@media screen and (max-width: $break-large) {
+			@include span-columns(4 of 8);   
+		}
 		@media screen and (max-width: $break-medium) {
 			@include span-columns(12);
 		}
 		#partners &{
-			@include omega(3);
+			@include omega(3n); 
+			@media screen and (max-width: $break-large) {
+				@include omega(2n); 
+			} 
 		}
 		margin-bottom: 40px;
 		#videos &,#all-videos &{
@@ -13,7 +19,7 @@
 		figure{
 			width:100%;
 			background-color: $light-grey;
-			overflow:hidden;
+			overflow:hidden; 
 			position:relative;
 			margin-bottom: 16px;
 			border:1px solid $light-grey;
@@ -68,7 +74,7 @@
 			@include transition (background-color .1s linear 0s);
 		}
 		h3{
-			@include font-size(22);
+			@include font-size(20);
 			margin-bottom: 10px;
 		}
 		p{

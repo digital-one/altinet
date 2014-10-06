@@ -137,7 +137,7 @@ $(".play-video").click(function() {
 });
 
 //nav dropdown
-
+if(!isTouchDevice.any()){
 $('#nav li').on('mouseenter',function(){
 
 	if ($('.sub-menu',$(this)).length){
@@ -151,3 +151,4 @@ if ($('.sub-menu',$(this)).length){
 		$(this).removeClass('active');
 	}
 });
+}

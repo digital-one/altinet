@@ -7,6 +7,7 @@
 	overflow: visible !important;
 	font-family: $raleway;
 	font-weight: 700;
+	z-index:999;
 	.container{
 		@media screen and (max-width: $break-large) {
 			overflow:visible;
@@ -19,7 +20,7 @@
 	}
 	.container{
 		@media screen and (max-width: $break-large) {
-			padding:0;
+			padding:0 !important;
 		}
 	}
 	@include centered-menu;
@@ -159,15 +160,15 @@
 				text-transform: uppercase;
 				padding:0 18px;
 				@media screen and (max-width: $break-xlarge) {
-					padding: 0 14px;
+					padding: 0 12px;
 					display: block;
 					float:none;
 				}
 				@media screen and (max-width: $break-large) {
 					text-align: left;
 					background-color: $dark-grey;
-					height:45px;
-					line-height: 45px;
+					height:35px;
+					line-height: 35px;
 					color:darken(white,20);
 				}
 				height:70px;
