@@ -3232,7 +3232,17 @@ a:hover .button, a:active .button {
 #videos .link-box:nth-child(4n+1), #all-videos .link-box:nth-child(4n+1) {
   clear: left;
 }
-/* line 19, ../sass/templates/_partners.scss */
+@media screen and (max-width: 979px) {
+  /* line 52, ../sass/neat/grid/_omega.scss */
+  #videos .link-box:nth-child(3n), #all-videos .link-box:nth-child(3n) {
+    margin-right: 0;
+  }
+  /* line 57, ../sass/neat/grid/_omega.scss */
+  #videos .link-box:nth-child(3n+1), #all-videos .link-box:nth-child(3n+1) {
+    clear: left;
+  }
+}
+/* line 23, ../sass/templates/_partners.scss */
 .link-box figure {
   width: 100%;
   background-color: #e8e8e8;
@@ -3244,20 +3254,20 @@ a:hover .button, a:active .button {
   -moz-transition: background-color 0.1s linear 0s;
   transition: background-color 0.1s linear 0s;
 }
-/* line 27, ../sass/templates/_partners.scss */
+/* line 31, ../sass/templates/_partners.scss */
 #partners .link-box figure:before {
   content: "";
   display: block;
   padding-top: 60%;
   vertical-align: middle;
 }
-/* line 33, ../sass/templates/_partners.scss */
+/* line 37, ../sass/templates/_partners.scss */
 #videos .link-box figure img, section#all-videos .link-box figure img {
   width: 100%;
   height: auto;
   display: block;
 }
-/* line 38, ../sass/templates/_partners.scss */
+/* line 42, ../sass/templates/_partners.scss */
 .link-box figure .inner {
   top: 0;
   right: 0;
@@ -3265,13 +3275,13 @@ a:hover .button, a:active .button {
   left: 0;
   position: absolute;
 }
-/* line 40, ../sass/templates/_partners.scss */
+/* line 44, ../sass/templates/_partners.scss */
 .link-box figure .inner div {
   display: table;
   width: 100%;
   height: 100%;
 }
-/* line 44, ../sass/templates/_partners.scss */
+/* line 48, ../sass/templates/_partners.scss */
 .link-box figure .inner div span {
   display: table-cell;
   text-align: center;
@@ -3279,17 +3289,17 @@ a:hover .button, a:active .button {
   height: 100%;
   width: 100%;
 }
-/* line 50, ../sass/templates/_partners.scss */
+/* line 54, ../sass/templates/_partners.scss */
 .link-box figure .inner div span img {
   width: 70%;
   height: auto;
 }
-/* line 53, ../sass/templates/_partners.scss */
+/* line 57, ../sass/templates/_partners.scss */
 .link-box figure .inner div span img.portrait {
   height: 70%;
   width: auto;
 }
-/* line 62, ../sass/templates/_partners.scss */
+/* line 66, ../sass/templates/_partners.scss */
 .link-box .play {
   width: 60px;
   height: 60px;
@@ -3315,22 +3325,22 @@ a:hover .button, a:active .button {
   -moz-transition: background-color 0.1s linear 0s;
   transition: background-color 0.1s linear 0s;
 }
-/* line 76, ../sass/templates/_partners.scss */
+/* line 80, ../sass/templates/_partners.scss */
 .link-box h3 {
   font-size: 20px;
   font-size: 2rem;
   margin-bottom: 10px;
 }
-/* line 80, ../sass/templates/_partners.scss */
+/* line 84, ../sass/templates/_partners.scss */
 .link-box p {
   color: #474747;
   margin-bottom: 12px;
 }
-/* line 86, ../sass/templates/_partners.scss */
+/* line 90, ../sass/templates/_partners.scss */
 .link-box a:hover figure, .link-box a:active figure {
   background-color: #cfcfcf;
 }
-/* line 89, ../sass/templates/_partners.scss */
+/* line 93, ../sass/templates/_partners.scss */
 .link-box a:hover .play, .link-box a:active .play {
   background-color: #e75402;
 }
@@ -3688,4 +3698,16 @@ article#post figure img {
 /* line 68, ../sass/templates/_blog.scss */
 #comments {
   margin-bottom: 50px;
+}
+
+/* line 2, ../sass/templates/_videos.scss */
+#all-videos header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+/* line 38, ../sass/neat/grid/_span-columns.scss */
+#all-videos header:last-child {
+  margin-right: 0;
 }

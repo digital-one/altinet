@@ -15,6 +15,10 @@
 		margin-bottom: 40px;
 		#videos &,#all-videos &{
 			@include omega(1n+3);
+			@media screen and (max-width: $break-large) {
+				@include omega(1n+2);
+			}
+
 		}
 		figure{
 			width:100%;
